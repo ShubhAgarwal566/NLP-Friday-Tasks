@@ -1,0 +1,16 @@
+Major Stemmers Used
+Porter, Snowball (Porter2), Lancaster (Paice-Husk)
+
+Aggressiveness
+Lancaster > Snowball > Porter
+
+Summary:
+
+Porter
+Most commonly used stemmer. It is least aggressive but still is very complex. Oldest stemming algorithm.
+
+Snowball
+It is an imporvement over the then existing Porter Stemmer. Slightly faster execution time than that of Porter. 
+
+Lancaster
+Most aggressive stemmer in the list. Stemmed representations are not very intuitive for this. Has a very fast computational time and can reduce working set to a huge extent. Prone to over stemming. 
